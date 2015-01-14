@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E6E5FAB6-E8FD-4597-9C48-5C0FCC8CC1B5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BlueWing</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AF3BC1C903D3427BC05A1D3AFCD57D325F6949CD</key>
+		<string>https://github.com/adisha94/BlueWing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BlueWing.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AF3BC1C903D3427BC05A1D3AFCD57D325F6949CD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/adisha94/BlueWing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AF3BC1C903D3427BC05A1D3AFCD57D325F6949CD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AF3BC1C903D3427BC05A1D3AFCD57D325F6949CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BlueWing</string>
+		</dict>
+	</array>
+</dict>
+</plist>

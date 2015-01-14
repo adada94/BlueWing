@@ -14,7 +14,7 @@
 		3923D8C21A623D820006A08F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3923D8C11A623D820006A08F /* Images.xcassets */; };
 		3923D8C51A623D820006A08F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3923D8C31A623D820006A08F /* LaunchScreen.xib */; };
 		3923D8D11A623D830006A08F /* BlueWingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3923D8D01A623D830006A08F /* BlueWingTests.swift */; };
-		3923D8DB1A623F800006A08F /* BaseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3923D8DA1A623F800006A08F /* BaseCode.swift */; };
+		39EB68811A63A7FA00FB45FA /* Password_Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EB68801A63A7FA00FB45FA /* Password_Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3911AAC91A645F3C00C9D9E9 /* BlueWing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BlueWing.entitlements; sourceTree = "<group>"; };
 		3923D8B21A623D820006A08F /* BlueWing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueWing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3923D8B61A623D820006A08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3923D8B71A623D820006A08F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +40,9 @@
 		3923D8CA1A623D830006A08F /* BlueWingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueWingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3923D8CF1A623D830006A08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3923D8D01A623D830006A08F /* BlueWingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueWingTests.swift; sourceTree = "<group>"; };
-		3923D8DA1A623F800006A08F /* BaseCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCode.swift; sourceTree = "<group>"; };
+		396CCCD81A647E65003C4349 /* Practice_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Practice_Playground.playground; sourceTree = "<group>"; };
+		39EB68801A63A7FA00FB45FA /* Password_Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Password_Storage.swift; sourceTree = "<group>"; };
+		39EB68821A63A95D00FB45FA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +84,15 @@
 		3923D8B41A623D820006A08F /* BlueWing */ = {
 			isa = PBXGroup;
 			children = (
-				3923D8DA1A623F800006A08F /* BaseCode.swift */,
-				3923D8B71A623D820006A08F /* AppDelegate.swift */,
+				3911AAC91A645F3C00C9D9E9 /* BlueWing.entitlements */,
+				39EB68801A63A7FA00FB45FA /* Password_Storage.swift */,
 				3923D8BC1A623D820006A08F /* ViewController.swift */,
+				3923D8B71A623D820006A08F /* AppDelegate.swift */,
 				3923D8BE1A623D820006A08F /* Main.storyboard */,
 				3923D8C11A623D820006A08F /* Images.xcassets */,
 				3923D8C31A623D820006A08F /* LaunchScreen.xib */,
+				39EB68821A63A95D00FB45FA /* MyPlayground.playground */,
+				396CCCD81A647E65003C4349 /* Practice_Playground.playground */,
 				3923D8B91A623D820006A08F /* BlueWing.xcdatamodeld */,
 				3923D8B51A623D820006A08F /* Supporting Files */,
 			);
@@ -167,6 +173,18 @@
 				TargetAttributes = {
 					3923D8B11A623D820006A08F = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 9337GM5WZH;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.VPNLite = {
+								enabled = 0;
+							};
+						};
 					};
 					3923D8C91A623D830006A08F = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -218,10 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39EB68811A63A7FA00FB45FA /* Password_Storage.swift in Sources */,
 				3923D8BD1A623D820006A08F /* ViewController.swift in Sources */,
 				3923D8BB1A623D820006A08F /* BlueWing.xcdatamodeld in Sources */,
 				3923D8B81A623D820006A08F /* AppDelegate.swift in Sources */,
-				3923D8DB1A623F800006A08F /* BaseCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,10 +364,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = BlueWing/BlueWing.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BlueWing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -357,10 +381,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = BlueWing/BlueWing.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BlueWing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -417,6 +447,7 @@
 				3923D8D61A623D830006A08F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3923D8D71A623D830006A08F /* Build configuration list for PBXNativeTarget "BlueWingTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +456,7 @@
 				3923D8D91A623D830006A08F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

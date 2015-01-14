@@ -1,16 +1,21 @@
 //
-//  BaseCode.swift
+//  Password_Storage.swift
 //  BlueWing
 //
-//  Created by Adish Betawar on 1/10/15.
+//  Created by Adish Betawar on 1/11/15.
 //  Copyright (c) 2015 Mega Saga Entertainment. All rights reserved.
 //
 
+import UIKit
 import Foundation
-import UIkit
 
 class Password_Storage: UIViewController
 {
+
+    required init(coder aDecoder: NSCoder)
+    {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func viewDidLoad()
     {
@@ -23,8 +28,7 @@ class Password_Storage: UIViewController
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
+
     @IBAction func Message_Pop()
     {
         let passMessage = UIAlertController(title: "Password Notification", message: "Would you like to store a password into your storage?", preferredStyle: UIAlertControllerStyle.Alert)
@@ -41,6 +45,21 @@ class Password_Storage: UIViewController
         alertController.addAction(UIAlertAction (title: "No", style: UIAlertActionStyle.Cancel, handler: nil))
         self.presentViewController(alertController, animated: true, completion: nil) // if user selects yes, then move on to the next main page of application
     }
+    
+    
+    
+    class Password
+    {
+        var nameOfWebsite, userName, password: String?
+        func SecurityInfo()
+        {
+            var numberOfSecurityQuestions: Int
+            var securityQuestion, securityAnswer: [String]
+        }
+    }
+    
+    var classInitializer: Password_Storage
+    var pas: Password
 }
 
 /*
@@ -48,27 +67,4 @@ class Password_Storage: UIViewController
 */
 
 // Use UITableView to get information from a table that will be generated to store all the passwords and website informtation inside the application
-
-
-
-
-
-struct Password
-{
-    var nameOfWebsite, userName, password: String?
-    func security()
-    {
-        var numberOfSecurityQuestions: Int?
-        var securityQuestion: [String]
-        var securityAnswer: [String]
-    }
-}
-
-
-
-
-
-
-
-
 
