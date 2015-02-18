@@ -37,10 +37,9 @@ class Password_Storage: UIViewController
         self.presentViewController(passMessage, animated: false, completion: nil)
     }
     
-    
     @IBAction func SelectOption()
     {
-        let alertController = UIAlertController(title: "Start saving your digital identity", message: "Shall we begin?", preferredStyle:UIAlertControllerStyle.Alert)
+        let alertController = UIAlertController(title: "Store a Password", message: "Shall we begin?", preferredStyle:UIAlertControllerStyle.Alert)
         alertController.addAction(UIAlertAction (title: "Yes", style: UIAlertActionStyle.Default, handler: nil))
         alertController.addAction(UIAlertAction (title: "No", style: UIAlertActionStyle.Cancel, handler: nil))
         self.presentViewController(alertController, animated: true, completion: nil) // if user selects yes, then move on to the next main page of application
@@ -48,7 +47,7 @@ class Password_Storage: UIViewController
     
     
     
-    class Password
+    struct Password
     {
         var nameOfWebsite, userName, password: String?
         func SecurityInfo()
@@ -60,6 +59,10 @@ class Password_Storage: UIViewController
     
     var classInitializer: Password_Storage
     var pas: Password
+    var textFeild: UITextField
+    
+    
+    
 }
 
 /*

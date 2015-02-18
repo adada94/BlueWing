@@ -3,3 +3,4 @@
 import UIKit
 import Foundation
 
+var alert: UIAlertController;
