@@ -42,25 +42,29 @@ void ReadInfo(Password example)
     main_in.close();
 }
 
-// overload
-void AppendsAndSavesInfo()
-{
-    ofstream local_out;
-    char filename[500]; // custom file name that user inputs and to store the data.
-    if (local_out.fail())
-    {
-        int option;
-        cout << "There is no file by this name. Do you want to create it?\n\t" << "1. Yes \t" << "2. No" << endl;
-        cin >> option;
-        if (option == 1)
-        {
-            // create the file and set up for recieving text
-        }
-        else
-        {
-            // exit menu
-        }
-    }
-    cout << "What is the name of the file that you would like to save this to?";
-    cout << "Password has been added to the database.";
-}
+//// overload
+//void AppendsAndSavesInfo()
+//{
+//    ofstream local_out;
+//    char filename[500]; // custom file name that user inputs and to store the data.
+//    if (local_out.fail())
+//    {
+//<<<<<<< Updated upstream
+//        int option;
+//        cout << "There is no file by this name. Do you want to create it?\n\t" << "1. Yes \t" << "2. No" << endl;
+//        cin >> option;
+//        if (option == 1)
+//        {
+//            // create the file and set up for recieving text
+//        }
+//        else
+//        {
+//            // exit menu
+//        }
+//=======
+//        cout << "There is no file by this name. Do you want to create it?"
+//>>>>>>> Stashed changes
+//    }
+//    cout << "What is the name of the file that you would like to save this to?";
+//    cout << "Password has been added to the database.";
+//}
