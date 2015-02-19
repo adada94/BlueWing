@@ -15,6 +15,7 @@
 		3923D8C51A623D820006A08F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3923D8C31A623D820006A08F /* LaunchScreen.xib */; };
 		3923D8D11A623D830006A08F /* BlueWingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3923D8D01A623D830006A08F /* BlueWingTests.swift */; };
 		39EB68811A63A7FA00FB45FA /* Password_Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EB68801A63A7FA00FB45FA /* Password_Storage.swift */; };
+		39F184EC1A96A1A60048F91A /* CustomeWindowMake.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F184EB1A96A1A60048F91A /* CustomeWindowMake.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		396CCCD81A647E65003C4349 /* Practice_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Practice_Playground.playground; sourceTree = "<group>"; };
 		39EB68801A63A7FA00FB45FA /* Password_Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Password_Storage.swift; sourceTree = "<group>"; };
 		39EB68821A63A95D00FB45FA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		39F184EB1A96A1A60048F91A /* CustomeWindowMake.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomeWindowMake.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				3923D8BC1A623D820006A08F /* ViewController.swift */,
 				3923D8B71A623D820006A08F /* AppDelegate.swift */,
 				3923D8BE1A623D820006A08F /* Main.storyboard */,
+				39F184EB1A96A1A60048F91A /* CustomeWindowMake.xib */,
 				3923D8C11A623D820006A08F /* Images.xcassets */,
 				3923D8C31A623D820006A08F /* LaunchScreen.xib */,
 				39EB68821A63A95D00FB45FA /* MyPlayground.playground */,
@@ -216,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F184EC1A96A1A60048F91A /* CustomeWindowMake.xib in Resources */,
 				3923D8C01A623D820006A08F /* Main.storyboard in Resources */,
 				3923D8C51A623D820006A08F /* LaunchScreen.xib in Resources */,
 				3923D8C21A623D820006A08F /* Images.xcassets in Resources */,
@@ -398,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -409,6 +414,7 @@
 				INFOPLIST_FILE = BlueWingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueWing.app/BlueWing";
 			};
 			name = Debug;
@@ -417,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
