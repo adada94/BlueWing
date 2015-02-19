@@ -9,6 +9,7 @@
 import UIKit
 import Foundation
 
+
 class Password_Storage: UIViewController
 {
 
@@ -45,24 +46,8 @@ class Password_Storage: UIViewController
         self.presentViewController(alertController, animated: true, completion: nil) // if user selects yes, then move on to the next main page of application
     }
     
-    
-    
-    struct Password
-    {
-        var nameOfWebsite, userName, password: String?
-        func SecurityInfo()
-        {
-            var numberOfSecurityQuestions: Int
-            var securityQuestion, securityAnswer: [String]
-        }
-    }
-    
-    var classInitializer: Password_Storage
-    var pas: Password
-    var textFeild: UITextField
-    
-    
-    
+     let myEmbeddedVIew: UIView
+            
 }
 
 /*

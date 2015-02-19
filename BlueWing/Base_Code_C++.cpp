@@ -11,23 +11,12 @@ using namespace std;
 #include <fstream>
 #include <cstdlib>
 
-typedef struct
-{
-    char nameOfWebsite[500];
-    char userName[500];
-    char key[300];
-} Password; // declares the Password object
 
 // globals
 Password pas; // global for main password database;
 ifstream main_in; // reading FROM file
 
 
-// function declarations
-void AskInfo(); // prompt the user for
-void ReadInfo(Password example); // takes input from file using temporary file name
-void SavesInfo(); // prints the value stored in ReadInfo();
-void AppendsAndSavesInfo();
 
 void AskInfo()
 {
@@ -60,8 +49,17 @@ void AppendsAndSavesInfo()
     char filename[500]; // custom file name that user inputs and to store the data.
     if (local_out.fail())
     {
-        
-        cout << "There is no file by this name. Do you want to create it?"
+        int option;
+        cout << "There is no file by this name. Do you want to create it?\n\t" << "1. Yes \t" << "2. No" << endl;
+        cin >> option;
+        if (option == 1)
+        {
+            // create the file and set up for recieving text
+        }
+        else
+        {
+            // exit menu
+        }
     }
     cout << "What is the name of the file that you would like to save this to?";
     cout << "Password has been added to the database.";

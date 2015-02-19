@@ -38,7 +38,6 @@
 		391E6FCE1A8AC6530010C50B /* Base_Code_C++.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Base_Code_C++.cpp"; sourceTree = "<group>"; };
 		391E6FCF1A8AC6530010C50B /* Base_Code_C++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Base_Code_C++.h"; sourceTree = "<group>"; };
 		391E6FD11A8AE0950010C50B /* C++_importer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "C++_importer.m"; sourceTree = "<group>"; };
-		391E6FD31A8AE55B0010C50B /* Password.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Password.h; sourceTree = "<group>"; };
 		3923D8B21A623D820006A08F /* BlueWing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueWing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3923D8B61A623D820006A08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3923D8B71A623D820006A08F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +49,8 @@
 		3923D8CA1A623D830006A08F /* BlueWingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueWingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3923D8CF1A623D830006A08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3923D8D01A623D830006A08F /* BlueWingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueWingTests.swift; sourceTree = "<group>"; };
+		3956A7AB1A968C4E00513E83 /* Swift and Objective C coop.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Swift and Objective C coop.playground"; sourceTree = "<group>"; };
+		3956A7AC1A9697F800513E83 /* BaseSwiftHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSwiftHeader.h; sourceTree = "<group>"; };
 		396CCCD81A647E65003C4349 /* Practice_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Practice_Playground.playground; sourceTree = "<group>"; };
 		39EB68801A63A7FA00FB45FA /* Password_Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Password_Storage.swift; sourceTree = "<group>"; };
 		39EB68821A63A95D00FB45FA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
@@ -103,11 +104,12 @@
 				391E6FD11A8AE0950010C50B /* C++_importer.m */,
 				3923D8BE1A623D820006A08F /* Main.storyboard */,
 				391E6FCE1A8AC6530010C50B /* Base_Code_C++.cpp */,
-				391E6FD31A8AE55B0010C50B /* Password.h */,
+				3956A7AC1A9697F800513E83 /* BaseSwiftHeader.h */,
 				391E6FCF1A8AC6530010C50B /* Base_Code_C++.h */,
 				3923D8C11A623D820006A08F /* Images.xcassets */,
 				3923D8C31A623D820006A08F /* LaunchScreen.xib */,
 				39EB68821A63A95D00FB45FA /* MyPlayground.playground */,
+				3956A7AB1A968C4E00513E83 /* Swift and Objective C coop.playground */,
 				396CCCD81A647E65003C4349 /* Practice_Playground.playground */,
 				3923D8B91A623D820006A08F /* BlueWing.xcdatamodeld */,
 				3923D8B51A623D820006A08F /* Supporting Files */,

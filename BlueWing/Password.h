@@ -8,11 +8,20 @@
 
 #ifndef BlueWing_Password_h
 #define BlueWing_Password_h
+
 typedef struct
 {
     char nameOfWebsite[500];
     char userName[500];
-};
+    char id[300];
+} Password;
 
+
+typedef struct
+{
+    char applicationUserName[400];
+    char applicationPassword[20];
+    Password passwordDatabase[5];
+} applicationAccount;
 
 #endif
