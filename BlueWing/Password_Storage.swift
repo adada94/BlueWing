@@ -47,7 +47,10 @@ class Password_Storage: UIViewController
     }
     
     
-    
+    /*
+    *
+    *   This may be deleted after we import the header file that will already have Password object pre-defined
+    **/
     class Password
     {
         var nameOfWebsite, userName, password: String?
@@ -57,6 +60,7 @@ class Password_Storage: UIViewController
             var securityQuestion, securityAnswer: [String]
         }
     }
+    
     
     var classInitializer: Password_Storage
     var pas: Password
