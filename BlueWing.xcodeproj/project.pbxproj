@@ -18,6 +18,7 @@
 		3923D8C51A623D820006A08F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3923D8C31A623D820006A08F /* LaunchScreen.xib */; };
 		3923D8D11A623D830006A08F /* BlueWingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3923D8D01A623D830006A08F /* BlueWingTests.swift */; };
 		39EB68811A63A7FA00FB45FA /* Password_Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EB68801A63A7FA00FB45FA /* Password_Storage.swift */; };
+		39F184ED1A96BA4E0048F91A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39122EBD1A76E23D0069DA35 /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,6 @@
 /* Begin PBXFileReference section */
 		3911AAC91A645F3C00C9D9E9 /* BlueWing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BlueWing.entitlements; sourceTree = "<group>"; };
 		39122EBD1A76E23D0069DA35 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		39122EBF1A76E2580069DA35 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		391E6FCD1A8AC6530010C50B /* BlueWing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueWing-Bridging-Header.h"; sourceTree = "<group>"; };
 		391E6FCE1A8AC6530010C50B /* Base_Code_C++.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Base_Code_C++.cpp"; sourceTree = "<group>"; };
 		391E6FCF1A8AC6530010C50B /* Base_Code_C++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Base_Code_C++.h"; sourceTree = "<group>"; };
@@ -51,7 +51,6 @@
 		3923D8D01A623D830006A08F /* BlueWingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueWingTests.swift; sourceTree = "<group>"; };
 		3956A7AB1A968C4E00513E83 /* Swift and Objective C coop.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Swift and Objective C coop.playground"; sourceTree = "<group>"; };
 		3956A7AC1A9697F800513E83 /* BaseSwiftHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSwiftHeader.h; sourceTree = "<group>"; };
-		396CCCD81A647E65003C4349 /* Practice_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Practice_Playground.playground; sourceTree = "<group>"; };
 		39EB68801A63A7FA00FB45FA /* Password_Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Password_Storage.swift; sourceTree = "<group>"; };
 		39EB68821A63A95D00FB45FA /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F184ED1A96BA4E0048F91A /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,6 @@
 		3923D8A91A623D820006A08F = {
 			isa = PBXGroup;
 			children = (
-				39122EBF1A76E2580069DA35 /* GameKit.framework */,
 				39122EBD1A76E23D0069DA35 /* StoreKit.framework */,
 				3923D8B41A623D820006A08F /* BlueWing */,
 				3923D8CD1A623D830006A08F /* BlueWingTests */,
@@ -110,7 +109,6 @@
 				3923D8C31A623D820006A08F /* LaunchScreen.xib */,
 				39EB68821A63A95D00FB45FA /* MyPlayground.playground */,
 				3956A7AB1A968C4E00513E83 /* Swift and Objective C coop.playground */,
-				396CCCD81A647E65003C4349 /* Practice_Playground.playground */,
 				3923D8B91A623D820006A08F /* BlueWing.xcdatamodeld */,
 				3923D8B51A623D820006A08F /* Supporting Files */,
 				391E6FCD1A8AC6530010C50B /* BlueWing-Bridging-Header.h */,
@@ -198,7 +196,7 @@
 								enabled = 0;
 							};
 							com.apple.GameCenter = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.InAppPurchase = {
 								enabled = 1;
@@ -264,12 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39EB68811A63A7FA00FB45FA /* Password_Storage.swift in Sources */,
+				391E6FD01A8AC6530010C50B /* Base_Code_C++.cpp in Sources */,
+				391E6FD21A8AE0950010C50B /* C++_importer.m in Sources */,
 				3923D8BD1A623D820006A08F /* ViewController.swift in Sources */,
+				39EB68811A63A7FA00FB45FA /* Password_Storage.swift in Sources */,
 				3923D8BB1A623D820006A08F /* BlueWing.xcdatamodeld in Sources */,
 				3923D8B81A623D820006A08F /* AppDelegate.swift in Sources */,
-				391E6FD21A8AE0950010C50B /* C++_importer.m in Sources */,
-				391E6FD01A8AC6530010C50B /* Base_Code_C++.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
