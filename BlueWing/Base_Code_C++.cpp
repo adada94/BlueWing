@@ -42,7 +42,7 @@ void ReadInfo(Password example)
     main_in.close();
 }
 
-<<<<<<< Updated upstream
+
 //// overload
 //void AppendsAndSavesInfo()
 //{
@@ -69,21 +69,4 @@ void ReadInfo(Password example)
 //    cout << "What is the name of the file that you would like to save this to?";
 //    cout << "Password has been added to the database.";
 //}
-=======
 // overload
-void AppendsAndSavesInfo()
-{
-    ofstream local_out;
-    char filename[500]; // custom file name that user inputs and to store the data.
-    if (local_out.fail())
-    {
-        cout << "There is no file by this name. Do you want to create it?"
-    }
-    else
-    {
-        local_out.open("File.txt" ios::app);
-    }
-    cout << "What is the name of the file that you would like to save this to?";
-    cout << "Password has been added to the database.";
-}
->>>>>>> Stashed changes
