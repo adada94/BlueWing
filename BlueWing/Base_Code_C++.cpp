@@ -69,7 +69,4 @@ void ReadInfo(Password example)
 //    cout << "What is the name of the file that you would like to save this to?";
 //    cout << "Password has been added to the database.";
 //}
-<<<<<<< Updated upstream
 // overload
-=======
->>>>>>> Stashed changes

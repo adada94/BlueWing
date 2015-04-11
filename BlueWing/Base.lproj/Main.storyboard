@@ -65,9 +65,6 @@
                                 <state key="normal" title="Store A Password">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="Message_Pop" destination="3iV-Kr-p3J" eventType="touchUpInside" id="dbh-pv-zHh"/>
-                                </connections>
                             </button>
                             <view multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cxn-U7-M4h" userLabel="Password Storage View" colorLabel="IBBuiltInLabel-Green">
                                 <rect key="frame" x="0.0" y="147" width="320" height="316"/>
