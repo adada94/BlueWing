@@ -54,7 +54,8 @@ class Password_Storage: UIViewController
     class Password
     {
         var nameOfWebsite, userName, password: String?
-        func SecurityInfo()
+        var userID: int // this is a specific identity of the user that should be generated when the user makes an Account
+        func SecurityInfo() // there is no need to create a function within the Password class for this
         {
             var numberOfSecurityQuestions: Int
             var securityQuestion, securityAnswer: [String]
@@ -63,7 +64,7 @@ class Password_Storage: UIViewController
     
     
     var classInitializer: Password_Storage
-    var pas: Password
+    var entry: Password // object of type password
 }
 
 /*
